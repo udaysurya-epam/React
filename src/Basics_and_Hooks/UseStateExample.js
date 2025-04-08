@@ -35,7 +35,7 @@ function UseStateEdgeCasesDemo() {
 
     userWrong.age = 26;
 
-    setUserWrong(funny); // no re-render
+    setUserWrong(userWrong); // no re-render
     console.log(userWrong.age);
   };
 

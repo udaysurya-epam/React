@@ -1,0 +1,23 @@
+.profile-container {
+    background: var(--bg);
+    color: var(--text);
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .profile-container h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-container p {
+    font-size: 1.1rem;
+    opacity: 0.85;
+  }
+  
